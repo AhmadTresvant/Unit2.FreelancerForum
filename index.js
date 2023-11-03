@@ -1,5 +1,3 @@
-alert('helloWrld');
-
 const freelancers = [
   { name: "Alice", price: 30, occupation: "writer" },
   { name: "Bob", price: 50, occupation: "teacher" },
@@ -14,7 +12,9 @@ console.log(findAverage());
 
 
 const body = document.body;
-const h3Div = document.createElement("div");
+const flexContainer1 = document.createElement("div");
+const flexContainer2 = document.createElement("div");
+const flexContainer3 = document.createElement("div")
 const freelanceTitle = document.createElement("h1");
 const averageStartingPrice = document.createElement("h3");
 const availableFreeLance = document.createElement("h2");
@@ -50,15 +50,18 @@ startingPriceLi1.textContent = "$30";
 startingPriceLi2.textContent = "$50";
 startingPriceLi3.textContent = "70";
 
-body.appendChild(freelanceTitle);
-body.appendChild(averageStartingPrice);
-body.appendChild(availableFreeLance);
-body.appendChild(h3Name);
-body.appendChild(occupation);
-body.appendChild(startingPrice);
-body.appendChild(nameUl);
-body.appendChild(occupationUl);
-body.appendChild(startingPriceUl);
+body.appendChild(flexContainer1);
+flexContainer1.appendChild(freelanceTitle);
+flexContainer1.appendChild(averageStartingPrice);
+flexContainer1.appendChild(availableFreeLance);
+body.appendChild(flexContainer2)
+flexContainer2.appendChild(h3Name);
+flexContainer2.appendChild(occupation);
+flexContainer2.appendChild(startingPrice);
+body.appendChild(flexContainer3);
+flexContainer3.appendChild(nameUl);
+flexContainer3.appendChild(occupationUl);
+flexContainer3.appendChild(startingPriceUl);
 nameUl.appendChild(nameLi1);
 nameUl.appendChild(nameLi2);
 nameUl.appendChild(nameLi3);
@@ -70,6 +73,18 @@ startingPriceUl.appendChild(startingPriceLi2);
 startingPriceUl.appendChild(startingPriceLi3);
 
 freelanceTitle.setAttribute("style", "color: red;");
+flexContainer1.setAttribute("style", "display: flex; justify-content: center; align-items: center;   flex-direction: column;")
+flexContainer2.setAttribute("style", "display: flex; justify-content: space-around; align-items: center;")
+flexContainer3.setAttribute("style", "display: flex; justify-content: space-around; align-items: center;")
+nameLi1.setAttribute("style", "list-style-type: none;")
+nameLi2.setAttribute("style", "list-style-type: none;")
+nameLi3.setAttribute("style", "list-style-type: none;")
+occupationLi1.setAttribute("style", "list-style-type: none;")
+occupationLi2.setAttribute("style", "list-style-type: none;")
+occupationLi3.setAttribute("style", "list-style-type: none;")
+startingPriceLi1.setAttribute("style", "list-style-type: none;")
+startingPriceLi2.setAttribute("style", "list-style-type: none;")
+startingPriceLi3.setAttribute("style", "list-style-type: none;")
 
 
 
