@@ -76,15 +76,15 @@ freelanceTitle.setAttribute("style", "color: red;");
 flexContainer1.setAttribute("style", "display: flex; justify-content: center; align-items: center;   flex-direction: column;")
 flexContainer2.setAttribute("style", "display: flex; justify-content: space-around; align-items: center;")
 flexContainer3.setAttribute("style", "display: flex; justify-content: space-around; align-items: center;")
-nameLi1.setAttribute("style", "list-style-type: none;")
-nameLi2.setAttribute("style", "list-style-type: none;")
-nameLi3.setAttribute("style", "list-style-type: none;")
-occupationLi1.setAttribute("style", "list-style-type: none;")
-occupationLi2.setAttribute("style", "list-style-type: none;")
-occupationLi3.setAttribute("style", "list-style-type: none;")
+nameLi1.setAttribute("style", "list-style-type: none; margin-top: 20px")
+nameLi2.setAttribute("style", "list-style-type: none; margin-top: 20px")
+nameLi3.setAttribute("style", "list-style-type: none; margin-top: 20px ")
+occupationLi1.setAttribute("style", "list-style-type: none; margin-top: 20px")
+occupationLi2.setAttribute("style", "list-style-type: none; margin-top: 20px")
+occupationLi3.setAttribute("style", "list-style-type: none; margin-top: 20px")
 startingPriceLi1.setAttribute("style", "list-style-type: none;")
-startingPriceLi2.setAttribute("style", "list-style-type: none;")
-startingPriceLi3.setAttribute("style", "list-style-type: none;")
+startingPriceLi2.setAttribute("style", "list-style-type: none; margin-top: 20px")
+startingPriceLi3.setAttribute("style", "list-style-type: none; margin-right: 90px; margin-top: 20px")
 
 
 
